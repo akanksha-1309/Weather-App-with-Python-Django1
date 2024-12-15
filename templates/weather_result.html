@@ -1,0 +1,7 @@
+{% if weather %}
+    <h2>Weather in {{ weather.name }}</h2>
+    <p>Temperature: {{ weather.main.temp }}°C</p>
+    <p>Description: {{ weather.weather.0.description }}</p>
+{% elif error %}
+    <p>{{ error }}</p>
+{% endif %}

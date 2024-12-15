@@ -1,0 +1,3 @@
+# for APiKey
+python-dotenv
+requests
